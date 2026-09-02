@@ -11,7 +11,7 @@
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
 
-    /* Strictness */
+    // /* Strictness *
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
