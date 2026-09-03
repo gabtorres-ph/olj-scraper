@@ -1,8 +1,28 @@
 {
-    "type":"module",
-    "scripts":
-    {
-    "scrape":"tsx src/index.ts",
-    "typecheck":"tsc --noEmit"
+    "type": "module",
+    "scripts": {
+        "scrape": "tsx src/index.ts",
+        "typecheck": "tsc --noEmit"
+    },
+    "name": "olj-scraper",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gabtorres-ph/olj-scraper.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gabtorres-ph/olj-scraper/issues"
+    },
+    "homepage": "https://github.com/gabtorres-ph/olj-scraper#readme",
+    "description": "",
+    "devDependencies": {
+        "tsx": "^4.23.13",
+        "typescript": "^7.0.2"
     }
 }
