@@ -23,6 +23,10 @@
     "description": "",
     "devDependencies": {
         "tsx": "^4.23.13",
-        "typescript": "^7.0.2"
+        "typescript": "^7.0.2",
+        "zod": "^4.5.4"
+    },
+    "dependencies": {
+        "dotenv": "^17.4.2"
     }
 }
